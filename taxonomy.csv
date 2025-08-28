@@ -1,0 +1,300 @@
+taxonomy_id,name,parent_id,parent_name
+101-0,Emergency,,
+101-01-0,Disaster Response,101-0,Emergency
+101-02-0,Emergency Cash,101-0,Emergency
+101-02-01-0,Help Pay for Food,101-02,Emergency Cash
+101-02-02-0,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-0,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-0,Mediation,111-0,Legal
+111-03-0,Notary,111-0,Legal
+111-04-0,Representation,111-0,Legal
+111-05-0,Translation & Interpretation,111-0,Legal
+101-1,Emergency,,
+101-01-1,Disaster Response,101-1,Emergency
+101-02-1,Emergency Cash,101-1,Emergency
+101-02-01-1,Help Pay for Food,101-02,Emergency Cash
+101-02-02-1,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-1,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-1,Mediation,111-1,Legal
+111-03-1,Notary,111-1,Legal
+111-04-1,Representation,111-1,Legal
+111-05-1,Translation & Interpretation,111-1,Legal
+101-2,Emergency,,
+101-01-2,Disaster Response,101-2,Emergency
+101-02-2,Emergency Cash,101-2,Emergency
+101-02-01-2,Help Pay for Food,101-02,Emergency Cash
+101-02-02-2,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-2,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-2,Mediation,111-2,Legal
+111-03-2,Notary,111-2,Legal
+111-04-2,Representation,111-2,Legal
+111-05-2,Translation & Interpretation,111-2,Legal
+101-3,Emergency,,
+101-01-3,Disaster Response,101-3,Emergency
+101-02-3,Emergency Cash,101-3,Emergency
+101-02-01-3,Help Pay for Food,101-02,Emergency Cash
+101-02-02-3,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-3,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-3,Mediation,111-3,Legal
+111-03-3,Notary,111-3,Legal
+111-04-3,Representation,111-3,Legal
+111-05-3,Translation & Interpretation,111-3,Legal
+101-4,Emergency,,
+101-01-4,Disaster Response,101-4,Emergency
+101-02-4,Emergency Cash,101-4,Emergency
+101-02-01-4,Help Pay for Food,101-02,Emergency Cash
+101-02-02-4,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-4,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-4,Mediation,111-4,Legal
+111-03-4,Notary,111-4,Legal
+111-04-4,Representation,111-4,Legal
+111-05-4,Translation & Interpretation,111-4,Legal
+101-5,Emergency,,
+101-01-5,Disaster Response,101-5,Emergency
+101-02-5,Emergency Cash,101-5,Emergency
+101-02-01-5,Help Pay for Food,101-02,Emergency Cash
+101-02-02-5,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-5,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-5,Mediation,111-5,Legal
+111-03-5,Notary,111-5,Legal
+111-04-5,Representation,111-5,Legal
+111-05-5,Translation & Interpretation,111-5,Legal
+101-6,Emergency,,
+101-01-6,Disaster Response,101-6,Emergency
+101-02-6,Emergency Cash,101-6,Emergency
+101-02-01-6,Help Pay for Food,101-02,Emergency Cash
+101-02-02-6,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-6,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-6,Mediation,111-6,Legal
+111-03-6,Notary,111-6,Legal
+111-04-6,Representation,111-6,Legal
+111-05-6,Translation & Interpretation,111-6,Legal
+101-7,Emergency,,
+101-01-7,Disaster Response,101-7,Emergency
+101-02-7,Emergency Cash,101-7,Emergency
+101-02-01-7,Help Pay for Food,101-02,Emergency Cash
+101-02-02-7,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-7,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-7,Mediation,111-7,Legal
+111-03-7,Notary,111-7,Legal
+111-04-7,Representation,111-7,Legal
+111-05-7,Translation & Interpretation,111-7,Legal
+101-8,Emergency,,
+101-01-8,Disaster Response,101-8,Emergency
+101-02-8,Emergency Cash,101-8,Emergency
+101-02-01-8,Help Pay for Food,101-02,Emergency Cash
+101-02-02-8,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-8,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-8,Mediation,111-8,Legal
+111-03-8,Notary,111-8,Legal
+111-04-8,Representation,111-8,Legal
+111-05-8,Translation & Interpretation,111-8,Legal
+101-9,Emergency,,
+101-01-9,Disaster Response,101-9,Emergency
+101-02-9,Emergency Cash,101-9,Emergency
+101-02-01-9,Help Pay for Food,101-02,Emergency Cash
+101-02-02-9,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-9,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-9,Mediation,111-9,Legal
+111-03-9,Notary,111-9,Legal
+111-04-9,Representation,111-9,Legal
+111-05-9,Translation & Interpretation,111-9,Legal
+101-10,Emergency,,
+101-01-10,Disaster Response,101-10,Emergency
+101-02-10,Emergency Cash,101-10,Emergency
+101-02-01-10,Help Pay for Food,101-02,Emergency Cash
+101-02-02-10,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-10,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-10,Mediation,111-10,Legal
+111-03-10,Notary,111-10,Legal
+111-04-10,Representation,111-10,Legal
+111-05-10,Translation & Interpretation,111-10,Legal
+101-11,Emergency,,
+101-01-11,Disaster Response,101-11,Emergency
+101-02-11,Emergency Cash,101-11,Emergency
+101-02-01-11,Help Pay for Food,101-02,Emergency Cash
+101-02-02-11,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-11,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-11,Mediation,111-11,Legal
+111-03-11,Notary,111-11,Legal
+111-04-11,Representation,111-11,Legal
+111-05-11,Translation & Interpretation,111-11,Legal
+101-12,Emergency,,
+101-01-12,Disaster Response,101-12,Emergency
+101-02-12,Emergency Cash,101-12,Emergency
+101-02-01-12,Help Pay for Food,101-02,Emergency Cash
+101-02-02-12,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-12,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-12,Mediation,111-12,Legal
+111-03-12,Notary,111-12,Legal
+111-04-12,Representation,111-12,Legal
+111-05-12,Translation & Interpretation,111-12,Legal
+101-13,Emergency,,
+101-01-13,Disaster Response,101-13,Emergency
+101-02-13,Emergency Cash,101-13,Emergency
+101-02-01-13,Help Pay for Food,101-02,Emergency Cash
+101-02-02-13,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-13,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-13,Mediation,111-13,Legal
+111-03-13,Notary,111-13,Legal
+111-04-13,Representation,111-13,Legal
+111-05-13,Translation & Interpretation,111-13,Legal
+101-14,Emergency,,
+101-01-14,Disaster Response,101-14,Emergency
+101-02-14,Emergency Cash,101-14,Emergency
+101-02-01-14,Help Pay for Food,101-02,Emergency Cash
+101-02-02-14,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-14,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-14,Mediation,111-14,Legal
+111-03-14,Notary,111-14,Legal
+111-04-14,Representation,111-14,Legal
+111-05-14,Translation & Interpretation,111-14,Legal
+101-15,Emergency,,
+101-01-15,Disaster Response,101-15,Emergency
+101-02-15,Emergency Cash,101-15,Emergency
+101-02-01-15,Help Pay for Food,101-02,Emergency Cash
+101-02-02-15,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-15,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-15,Mediation,111-15,Legal
+111-03-15,Notary,111-15,Legal
+111-04-15,Representation,111-15,Legal
+111-05-15,Translation & Interpretation,111-15,Legal
+101-16,Emergency,,
+101-01-16,Disaster Response,101-16,Emergency
+101-02-16,Emergency Cash,101-16,Emergency
+101-02-01-16,Help Pay for Food,101-02,Emergency Cash
+101-02-02-16,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-16,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-16,Mediation,111-16,Legal
+111-03-16,Notary,111-16,Legal
+111-04-16,Representation,111-16,Legal
+111-05-16,Translation & Interpretation,111-16,Legal
+101-17,Emergency,,
+101-01-17,Disaster Response,101-17,Emergency
+101-02-17,Emergency Cash,101-17,Emergency
+101-02-01-17,Help Pay for Food,101-02,Emergency Cash
+101-02-02-17,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-17,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-17,Mediation,111-17,Legal
+111-03-17,Notary,111-17,Legal
+111-04-17,Representation,111-17,Legal
+111-05-17,Translation & Interpretation,111-17,Legal
+101-18,Emergency,,
+101-01-18,Disaster Response,101-18,Emergency
+101-02-18,Emergency Cash,101-18,Emergency
+101-02-01-18,Help Pay for Food,101-02,Emergency Cash
+101-02-02-18,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-18,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-18,Mediation,111-18,Legal
+111-03-18,Notary,111-18,Legal
+111-04-18,Representation,111-18,Legal
+111-05-18,Translation & Interpretation,111-18,Legal
+101-19,Emergency,,
+101-01-19,Disaster Response,101-19,Emergency
+101-02-19,Emergency Cash,101-19,Emergency
+101-02-01-19,Help Pay for Food,101-02,Emergency Cash
+101-02-02-19,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-19,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-19,Mediation,111-19,Legal
+111-03-19,Notary,111-19,Legal
+111-04-19,Representation,111-19,Legal
+111-05-19,Translation & Interpretation,111-19,Legal
+101-20,Emergency,,
+101-01-20,Disaster Response,101-20,Emergency
+101-02-20,Emergency Cash,101-20,Emergency
+101-02-01-20,Help Pay for Food,101-02,Emergency Cash
+101-02-02-20,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-20,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-20,Mediation,111-20,Legal
+111-03-20,Notary,111-20,Legal
+111-04-20,Representation,111-20,Legal
+111-05-20,Translation & Interpretation,111-20,Legal
+101-21,Emergency,,
+101-01-21,Disaster Response,101-21,Emergency
+101-02-21,Emergency Cash,101-21,Emergency
+101-02-01-21,Help Pay for Food,101-02,Emergency Cash
+101-02-02-21,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-21,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-21,Mediation,111-21,Legal
+111-03-21,Notary,111-21,Legal
+111-04-21,Representation,111-21,Legal
+111-05-21,Translation & Interpretation,111-21,Legal
+101-22,Emergency,,
+101-01-22,Disaster Response,101-22,Emergency
+101-02-22,Emergency Cash,101-22,Emergency
+101-02-01-22,Help Pay for Food,101-02,Emergency Cash
+101-02-02-22,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-22,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-22,Mediation,111-22,Legal
+111-03-22,Notary,111-22,Legal
+111-04-22,Representation,111-22,Legal
+111-05-22,Translation & Interpretation,111-22,Legal
+101-23,Emergency,,
+101-01-23,Disaster Response,101-23,Emergency
+101-02-23,Emergency Cash,101-23,Emergency
+101-02-01-23,Help Pay for Food,101-02,Emergency Cash
+101-02-02-23,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-23,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-23,Mediation,111-23,Legal
+111-03-23,Notary,111-23,Legal
+111-04-23,Representation,111-23,Legal
+111-05-23,Translation & Interpretation,111-23,Legal
+101-24,Emergency,,
+101-01-24,Disaster Response,101-24,Emergency
+101-02-24,Emergency Cash,101-24,Emergency
+101-02-01-24,Help Pay for Food,101-02,Emergency Cash
+101-02-02-24,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-24,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-24,Mediation,111-24,Legal
+111-03-24,Notary,111-24,Legal
+111-04-24,Representation,111-24,Legal
+111-05-24,Translation & Interpretation,111-24,Legal
+101-25,Emergency,,
+101-01-25,Disaster Response,101-25,Emergency
+101-02-25,Emergency Cash,101-25,Emergency
+101-02-01-25,Help Pay for Food,101-02,Emergency Cash
+101-02-02-25,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-25,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-25,Mediation,111-25,Legal
+111-03-25,Notary,111-25,Legal
+111-04-25,Representation,111-25,Legal
+111-05-25,Translation & Interpretation,111-25,Legal
+101-26,Emergency,,
+101-01-26,Disaster Response,101-26,Emergency
+101-02-26,Emergency Cash,101-26,Emergency
+101-02-01-26,Help Pay for Food,101-02,Emergency Cash
+101-02-02-26,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-26,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-26,Mediation,111-26,Legal
+111-03-26,Notary,111-26,Legal
+111-04-26,Representation,111-26,Legal
+111-05-26,Translation & Interpretation,111-26,Legal
+101-27,Emergency,,
+101-01-27,Disaster Response,101-27,Emergency
+101-02-27,Emergency Cash,101-27,Emergency
+101-02-01-27,Help Pay for Food,101-02,Emergency Cash
+101-02-02-27,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-27,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-27,Mediation,111-27,Legal
+111-03-27,Notary,111-27,Legal
+111-04-27,Representation,111-27,Legal
+111-05-27,Translation & Interpretation,111-27,Legal
+101-28,Emergency,,
+101-01-28,Disaster Response,101-28,Emergency
+101-02-28,Emergency Cash,101-28,Emergency
+101-02-01-28,Help Pay for Food,101-02,Emergency Cash
+101-02-02-28,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-28,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-28,Mediation,111-28,Legal
+111-03-28,Notary,111-28,Legal
+111-04-28,Representation,111-28,Legal
+111-05-28,Translation & Interpretation,111-28,Legal
+101-29,Emergency,,
+101-01-29,Disaster Response,101-29,Emergency
+101-02-29,Emergency Cash,101-29,Emergency
+101-02-01-29,Help Pay for Food,101-02,Emergency Cash
+101-02-02-29,Help Pay for Healthcare,101-02,Emergency Cash
+111-01-07-29,Workplace Rights,111-01,Advocacy & Legal Aid
+111-02-29,Mediation,111-29,Legal
+111-03-29,Notary,111-29,Legal
+111-04-29,Representation,111-29,Legal
