@@ -21,4 +21,6 @@ DESCRIBE Student;
 INSERT INTO Student VALUES (1,'ANKIT',21);
 INSERT INTO Student VALUES (2,'AMAN',22);
 
+INSERT INTO Student (id,name,age) VALUES (3,'PARUL',19),(4,'RONAK',20);
+
 SELECT * FROM Student;
