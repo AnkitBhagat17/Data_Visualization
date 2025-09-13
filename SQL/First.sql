@@ -2,6 +2,8 @@
 CREATE DATABASE college;
 CREATE DATABASE IF NOT EXISTS college;
 
+DROP DATABASE ZomatoInventoryDB;
+
 USE college;
 
 CREATE TABLE Student (
@@ -9,6 +11,7 @@ id INT PRIMARY KEY,
 name VARCHAR(50),
 age INT NOT NULL
 );
+
 
 SHOW TABLES;
 DESCRIBE Student;
