@@ -4,6 +4,8 @@ CREATE DATABASE IF NOT EXISTS college;
 
 DROP DATABASE ZomatoInventoryDB;
 
+SHOW DATABASES;
+
 USE college;
 
 CREATE TABLE Student (
