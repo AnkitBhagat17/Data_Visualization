@@ -18,3 +18,12 @@ INSERT INTO student
 (104,'Anil',96,'A','Delhi'),
 (105,'Dhruv',12,'F','Delhi'),
 (106,'Pratik',82,'B','Delhi');
+
+SELECT * FROM student;
+SELECT rollno, name, marks FROM student;
+SELECT DISTINCT city FROM student;
+
+-- Where Clause
+
+ SELECT rollno,name,marks,city FROM student WHERE marks > 80;
+ SELECT * FROM student WHERE city = 'Mumbai';
