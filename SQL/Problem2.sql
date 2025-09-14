@@ -27,3 +27,20 @@ SELECT DISTINCT city FROM student;
 
  SELECT rollno,name,marks,city FROM student WHERE marks > 80;
  SELECT * FROM student WHERE city = 'Mumbai';
+
+-- BITWISE OPERATOR	
+
+SELECT * FROM student WHERE marks > 90 AND city = "Mumbai";
+SELECT * FROM student WHERE marks > 90 OR city = "Mumbai";
+
+-- BETWEEN OPERATOR
+SELECT * FROM student WHERE marks BETWEEN 80 AND 90; 
+
+-- IN 
+SELECT * FROM student WHERE city IN ("Pune","Mumbai"); 
+
+SELECT * FROM student WHERE city NOT IN ("Pune","Mumbai"); 
+
+-- LIMIT 
+
+SELECT rollno,name,city FROM student LIMIT 3;
