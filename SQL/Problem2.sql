@@ -49,3 +49,16 @@ SELECT rollno,name,city FROM student LIMIT 3;
 SELECT * FROM student ORDER BY city ASC;
 
 SELECT * FROM student ORDER BY marks DESC LIMIT 3;
+
+-- Aggregate Functions
+-- COUNT(), MAX(), MIN(), SUM(), AVG()
+
+SELECT MAX(marks) FROM student;
+SELECT MIN(marks) FROM student;
+SELECT AVG(marks) FROM student;
+SELECT SUM(marks) FROM student;
+SELECT COUNT(name) FROM student;
+
+
+-- Group By Clause 
+SELECT city, COUNT(name) FROM student GROUP BY city;
