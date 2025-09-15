@@ -47,3 +47,5 @@ SELECT rollno,name,city FROM student LIMIT 3;
 
 -- Order By Clause
 SELECT * FROM student ORDER BY city ASC;
+
+SELECT * FROM student ORDER BY marks DESC LIMIT 3;
