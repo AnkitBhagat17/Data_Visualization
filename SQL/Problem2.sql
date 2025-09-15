@@ -44,3 +44,6 @@ SELECT * FROM student WHERE city NOT IN ("Pune","Mumbai");
 -- LIMIT 
 
 SELECT rollno,name,city FROM student LIMIT 3;
+
+-- Order By Clause
+SELECT * FROM student ORDER BY city ASC;
