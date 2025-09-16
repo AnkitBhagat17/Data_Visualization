@@ -62,3 +62,5 @@ SELECT COUNT(name) FROM student;
 
 -- Group By Clause 
 SELECT city, COUNT(name) FROM student GROUP BY city;
+
+SELECT city,name, COUNT(name) FROM student GROUP BY city,name;
