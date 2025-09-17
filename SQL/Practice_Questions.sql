@@ -22,4 +22,5 @@ SELECT COUNT(name),city FROM student GROUP BY city HAVING MAX(marks) > 90;
 
 SELECT DISTINCT city FROM student;
 
-SELECT city FROM student WHERE grade = 'A';
+SELECT city FROM student WHERE grade = 'A' GROUP BY city HAVING MAX(marks) >= 93 ORDER BY city ASC;
+
