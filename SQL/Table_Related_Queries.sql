@@ -25,3 +25,19 @@ SELECT * FROM student;
 
 DELETE FROM student 
 WHERE marks < 33;
+
+
+
+-- Revisiting Foreign Keys
+
+CREATE TABLE dept(
+id INT PRIMARY KEY,
+name VARCHAR(50)
+); 
+
+CREATE TABLE teacher(
+id INT PRIMARY KEY,
+name VARCHAR(50),
+dept_id INT,
+FOREIGN KEY (dept_id) REFERENCES dept(id) 
+);
