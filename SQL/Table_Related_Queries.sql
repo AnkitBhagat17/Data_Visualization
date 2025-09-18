@@ -17,3 +17,11 @@ UPDATE 	student
 SET marks = marks + 1;
 
 SELECT * FROM student;
+
+-- DELETE (to delete existing rows)
+
+-- DELETE FROM table_name
+-- WHERE condition;
+
+DELETE FROM student 
+WHERE marks < 33;
