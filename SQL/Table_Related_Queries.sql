@@ -30,11 +30,17 @@ WHERE marks < 33;
 
 -- Revisiting Foreign Keys
 
+-- Parent Table
 CREATE TABLE dept(
 id INT PRIMARY KEY,
 name VARCHAR(50)
 ); 
 
+INSERT INTO dept VALUES 
+(101,'English'),
+(102,'IT');
+
+-- Child Table
 CREATE TABLE teacher(
 id INT PRIMARY KEY,
 name VARCHAR(50),
