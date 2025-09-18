@@ -36,6 +36,8 @@ id INT PRIMARY KEY,
 name VARCHAR(50)
 ); 
 
+SELECT * FROM dept;
+
 INSERT INTO dept VALUES 
 (101,'English'),
 (102,'IT');
@@ -46,4 +48,12 @@ id INT PRIMARY KEY,
 name VARCHAR(50),
 dept_id INT,
 FOREIGN KEY (dept_id) REFERENCES dept(id) 
+ON UPDATE CASCADE
+ON DELETE CASCADE
 );
+DROP TABLE teacher;
+INSERT INTO teacher VALUES
+(101,'Adam', 101),
+(102,'Eve', 102);
+
+SELECT * FROM teacher;
