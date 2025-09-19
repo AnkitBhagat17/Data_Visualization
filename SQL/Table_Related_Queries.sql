@@ -42,6 +42,8 @@ INSERT INTO dept VALUES
 (101,'English'),
 (102,'IT');
 
+SELECT * FROM dept;
+
 -- Child Table
 CREATE TABLE teacher(
 id INT PRIMARY KEY,
