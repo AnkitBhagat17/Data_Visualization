@@ -73,3 +73,6 @@ SELECT * FROM teacher;
 -- ALTER TABLE table_name
 
 -- DROP COLUMN column_name;
+
+ALTER TABLE student 
+ADD COLUMN age INT;
