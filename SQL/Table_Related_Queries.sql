@@ -44,6 +44,8 @@ INSERT INTO dept VALUES
 
 SELECT * FROM dept;
 
+UPDATE dept SET id = 103 WHERE id = 102;
+
 -- Child Table
 CREATE TABLE teacher(
 id INT PRIMARY KEY,
@@ -61,3 +63,13 @@ INSERT INTO teacher VALUES
 (102,'Eve', 102);
 
 SELECT * FROM teacher;
+
+
+-- Alter is used to change the Schema
+-- ADD TABLE table_name
+-- ADD COLUMN column_name datatype constraint;
+
+-- DROP Column
+-- ALTER TABLE table_name
+
+-- DROP COLUMN column_name;
