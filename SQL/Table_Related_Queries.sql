@@ -71,7 +71,7 @@ SELECT * FROM teacher;
 
 -- DROP Column
 -- ALTER TABLE table_name
-
+-- DROP table_name; ( It is used to drop the table with table's data)
 -- DROP COLUMN column_name;
 
 ALTER TABLE student 
@@ -116,3 +116,9 @@ RENAME TO stu;
 
 ALTER TABLE stu
 RENAME TO student;
+
+-- TRUNCATE (to delete the tables's data) 
+-- TRUNCATE TABLE table_name;
+
+TRUNCATE TABLE student;
+SELECT * FROM student;
