@@ -96,4 +96,13 @@ ADD COLUMN age INT NOT NULL DEFAULT 19;
 SELECT * FROM student;
 
 -- MODIFY COLUMN 
+ALTER TABLE student
+MODIFY COLUMN age VARCHAR(2);
 
+ALTER TABLE student
+CHANGE age stu_age INT;
+
+INSERT INTO student 
+(rollno,name,marks,stu_age)
+VALUES
+(107,"gargi",68,100);
