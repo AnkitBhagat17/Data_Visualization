@@ -106,3 +106,13 @@ INSERT INTO student
 (rollno,name,marks,stu_age)
 VALUES
 (107,"gargi",68,100);
+
+ALTER TABLE student
+DROP COLUMN stu_age;
+
+-- TABLE RENAMING
+ALTER TABLE student
+RENAME TO stu;
+
+ALTER TABLE stu
+RENAME TO student;
