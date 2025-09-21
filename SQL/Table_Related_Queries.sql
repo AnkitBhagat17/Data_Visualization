@@ -76,3 +76,24 @@ SELECT * FROM teacher;
 
 ALTER TABLE student 
 ADD COLUMN age INT;
+
+ALTER TABLE student 
+DROP COLUMN age;
+
+-- RENAME TABLE 
+-- ALTER TABLE table_ name
+-- RENAME TO new_table_name; 
+
+-- CHANGE COLUMN (rename)
+-- ALTER TABLE table_name
+-- MODIFY col_name new_datatype new_constraint;
+
+-- ADD COLUMN
+
+ALTER TABLE student 
+ADD COLUMN age INT NOT NULL DEFAULT 19;
+
+SELECT * FROM student;
+
+-- MODIFY COLUMN 
+
