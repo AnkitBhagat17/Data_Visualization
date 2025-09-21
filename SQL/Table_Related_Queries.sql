@@ -122,3 +122,9 @@ RENAME TO student;
 
 TRUNCATE TABLE student;
 SELECT * FROM student;
+
+ALTER TABLE student
+CHANGE name full_name VARCHAR(50);
+
+DELETE FROM student 
+WHERE marks < 80;
