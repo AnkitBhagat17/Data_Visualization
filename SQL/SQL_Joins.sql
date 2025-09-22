@@ -86,3 +86,38 @@ SELECT * FROM student as S INNER JOIN course as C ON S.rollno = C.id;
 -- ON tableA.col_name = tableB.col_name;
 
 SELECT * FROM student as S LEFT JOIN course as C ON S.rollno = C.id;
+
+
+-- LEFT EXCLUSIVE JOIN (Only rows in LEFT table that do not have a match in RIGHT table)
+SELECT S.* 
+FROM student AS S
+LEFT JOIN course AS C 
+ON S.rollno = C.id
+WHERE C.id IS NULL;
+
+-- RIGHT EXCLUSIVE JOIN (Courses without students)
+SELECT C.* 
+FROM student AS S
+RIGHT JOIN course AS C 
+ON S.rollno = C.id
+WHERE S.rollno IS NULL;
+
+-- SELF JOIN
+
+CREATE TABLE employee (
+    emp_id INT PRIMARY KEY,
+    emp_name VARCHAR(50),
+    manager_id INT
+);
+
+INSERT INTO employee (emp_id, emp_name, manager_id) VALUES
+(1, 'Ankit', NULL),   -- CEO, no manager
+(2, 'Rahul', 1),      -- Reports to Ankit
+(3, 'Sneha', 1),      -- Reports to Ankit
+(4, 'Amit', 2),       -- Reports to Rahul
+(5, 'Neha', 2);       -- Reports to Rahul
+
+SELECT E.emp_id, E.emp_name AS Employee, M.emp_name AS Manager
+FROM employee E
+LEFT JOIN employee M
+ON E.manager_id = M.emp_id;
