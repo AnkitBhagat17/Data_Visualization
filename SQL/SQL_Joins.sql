@@ -131,3 +131,10 @@ SELECT S.rollno, S.name, C.course_name
 FROM student AS S
 RIGHT JOIN course AS C ON S.rollno = C.id;
 
+
+-- EVEN ROll No
+SELECT rollno FROM student WHERE rollno % 2 = 0;
+
+SELECT emp_id, emp_name 
+FROM employee 
+WHERE emp_id IN (2,4,5);
