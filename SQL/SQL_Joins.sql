@@ -121,3 +121,13 @@ SELECT E.emp_id, E.emp_name AS Employee, M.emp_name AS Manager
 FROM employee E
 LEFT JOIN employee M
 ON E.manager_id = M.emp_id;
+
+-- UNION
+SELECT S.rollno, S.name, C.course_name
+FROM student AS S
+LEFT JOIN course AS C ON S.rollno = C.id
+UNION
+SELECT S.rollno, S.name, C.course_name
+FROM student AS S
+RIGHT JOIN course AS C ON S.rollno = C.id;
+
