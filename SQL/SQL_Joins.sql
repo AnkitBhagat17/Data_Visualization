@@ -138,3 +138,6 @@ SELECT rollno FROM student WHERE rollno % 2 = 0;
 SELECT emp_id, emp_name 
 FROM employee 
 WHERE emp_id IN (2,4,5);
+
+SELECT (SELECT MAX(age) FROM student),name 
+FROM student;
