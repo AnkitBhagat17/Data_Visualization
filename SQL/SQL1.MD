@@ -1,4 +1,5 @@
 SELECT * FROM sales;
+
 ![alt text](image-3.png)
 
 SELECT SaleDate, Amount, Customers FROM sales;
