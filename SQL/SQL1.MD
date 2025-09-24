@@ -15,3 +15,8 @@ SELECT Amount,Customers,GeoID FROM sales;
 SELECT SaleDate, Amount, Boxes, Amount/Boxes FROM sales;
 
 ![alt text](image-4.png)
+
+
+SELECT SaleDate , Amount, Boxes, Amount / boxes as 'Amount per box' from sales;
+
+![alt text](image-5.png)

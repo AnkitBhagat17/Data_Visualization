@@ -10,3 +10,5 @@ SELECT SaleDate, COUNT(*) AS duplicate_count
 FROM sales
 GROUP BY SaleDate
 HAVING COUNT(*) > 1;
+
+SELECT SaleDate , Amount, Boxes, Amount / boxes as 'Amount per box' from sales;
