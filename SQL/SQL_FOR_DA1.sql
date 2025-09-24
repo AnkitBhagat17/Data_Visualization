@@ -26,3 +26,9 @@ ORDER BY PID, Amount DESC;
 
 SELECT * FROM sales
 WHERE amount > 10000 AND SaleDate >= '2022-01-01';
+
+
+SELECT SaleDate, Amount FROM sales
+WHERE amount > 10000 AND YEAR(SaleDate) = 2022 
+ORDER BY amount DESC;
+
