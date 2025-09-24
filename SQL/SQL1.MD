@@ -20,3 +20,9 @@ SELECT SaleDate, Amount, Boxes, Amount/Boxes FROM sales;
 SELECT SaleDate , Amount, Boxes, Amount / boxes as 'Amount per box' from sales;
 
 ![alt text](image-5.png)
+
+
+SELECT * FROM sales
+WHERE amount > 20000 LIMIT 10;
+
+![alt text](image-6.png)

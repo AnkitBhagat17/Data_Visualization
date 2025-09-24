@@ -12,3 +12,7 @@ GROUP BY SaleDate
 HAVING COUNT(*) > 1;
 
 SELECT SaleDate , Amount, Boxes, Amount / boxes as 'Amount per box' from sales;
+
+
+SELECT * FROM sales
+WHERE amount > 20000 LIMIT 10;
