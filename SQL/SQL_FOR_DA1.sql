@@ -15,4 +15,14 @@ SELECT SaleDate , Amount, Boxes, Amount / boxes as 'Amount per box' from sales;
 
 
 SELECT * FROM sales
-WHERE amount > 20000 LIMIT 10;
+WHERE amount > 20000 LIMIT 10 ;
+
+SELECT * FROM sales
+WHERE amount > 20000 ORDER BY amount LIMIT 10;
+
+SELECT * FROM sales
+WHERE geoid = 'g1'
+ORDER BY PID, Amount DESC;
+
+SELECT * FROM sales
+WHERE amount > 10000 AND SaleDate >= '2022-01-01';
