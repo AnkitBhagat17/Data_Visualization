@@ -40,4 +40,5 @@ WHERE boxes BETWEEN 0 AND 50 LIMIT 10;
 
 -- WEEKDAY() FUNCTION
 SELECT SaleDate, Amount, Boxes, weekday(SaleDate) AS 'Day of Week'
-FROM sales  WHERE weekday(SaleDate) = 4 LIMIT 10;
+FROM sales  
+WHERE weekday(SaleDate) = 4 LIMIT 10;
