@@ -39,7 +39,9 @@ ABove Both Conditions or Queries Are Applicable
 ![alt text](image-7.png)
 
 -- WEEKDAY() FUNCTION
+
 SELECT SaleDate, Amount, Boxes, weekday(SaleDate) AS 'Day of Week'
 FROM sales  WHERE weekday(SaleDate) = 4;
+
 
 ![alt text](image-8.png)
