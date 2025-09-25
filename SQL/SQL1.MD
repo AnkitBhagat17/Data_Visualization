@@ -26,3 +26,9 @@ SELECT * FROM sales
 WHERE amount > 20000 LIMIT 10;
 
 ![alt text](image-6.png)
+
+
+SELECT * FROM sales
+WHERE boxes > 0 AND boxes <= 50 LIMIT 10;
+
+![alt text](image-7.png)

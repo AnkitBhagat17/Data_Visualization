@@ -32,3 +32,5 @@ SELECT SaleDate, Amount FROM sales
 WHERE amount > 10000 AND YEAR(SaleDate) = 2022 
 ORDER BY amount DESC;
 
+SELECT * FROM sales
+WHERE boxes > 0 AND boxes <= 50 LIMIT 10;
