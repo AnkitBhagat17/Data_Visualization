@@ -45,3 +45,15 @@ FROM sales  WHERE weekday(SaleDate) = 4;
 
 
 ![alt text](image-8.png)
+
+
+-- New Table
+SELECT * FROM people;
+
+![alt text](image-9.png)
+
+-- TEAM DELISH OR JUCIES
+SELECT * FROM people
+WHERE team = 'Delish' OR team = 'Jucies' LIMIT 10;
+
+![alt text](image-10.png)
