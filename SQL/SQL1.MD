@@ -31,4 +31,15 @@ WHERE amount > 20000 LIMIT 10;
 SELECT * FROM sales
 WHERE boxes > 0 AND boxes <= 50 LIMIT 10;
 
+SELECT * FROM sales 
+WHERE boxes BETWEEN 0 AND 50 LIMIT 10;
+
+ABove Both Conditions or Queries Are Applicable 
+
 ![alt text](image-7.png)
+
+-- WEEKDAY() FUNCTION
+SELECT SaleDate, Amount, Boxes, weekday(SaleDate) AS 'Day of Week'
+FROM sales  WHERE weekday(SaleDate) = 4;
+
+![alt text](image-8.png)
