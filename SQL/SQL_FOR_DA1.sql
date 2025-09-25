@@ -48,3 +48,6 @@ SELECT * FROM people;
 -- TEAM DELISH OR JUCIES
 SELECT * FROM people
 WHERE team = 'Delish' OR team = 'Jucies' LIMIT 10;
+
+SELECT * FROM people 
+WHERE salesperson LIKE 'B%';
