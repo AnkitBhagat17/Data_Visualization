@@ -66,6 +66,8 @@ SELECT SaleDate, Amount,
 		END AS 'Amount Category'
 FROM sales LIMIT 10;
 
+-- JOINS 
+
 
 
 
