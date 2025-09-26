@@ -62,3 +62,8 @@ SELECT * FROM people
 WHERE salesperson LIKE 'B%';
 
 ![alt text](image-11.png)
+
+SELECT * FROM people 
+WHERE salesperson LIKE '%B%' LIMIT 10;
+
+![alt text](image-12.png)

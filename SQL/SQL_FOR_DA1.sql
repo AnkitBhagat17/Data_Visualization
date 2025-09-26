@@ -51,3 +51,6 @@ WHERE team = 'Delish' OR team = 'Jucies' LIMIT 10;
 
 SELECT * FROM people 
 WHERE salesperson LIKE 'B%';
+
+SELECT * FROM people 
+WHERE salesperson LIKE '%B%' LIMIT 10;
