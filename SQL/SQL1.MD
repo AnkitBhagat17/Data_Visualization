@@ -67,3 +67,13 @@ SELECT * FROM people
 WHERE salesperson LIKE '%B%' LIMIT 10;
 
 ![alt text](image-12.png)
+
+SELECT SaleDate, Amount, 
+		CASE	WHEN amount < 1000 THEN 'Under 1K'
+				WHEN amount < 5000 THEN 'Under 5K'
+				WHEN amount < 10000 THEN 'Under 10K'
+			ELSE '10K or more'
+		END AS 'Amount Category'
+FROM sales LIMIT 10;
+
+![alt text](image-13.png)
