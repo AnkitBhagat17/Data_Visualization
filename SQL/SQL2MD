@@ -1,10 +1,11 @@
 SELECT s.SaleDate, s.amount , p.Salesperson, s.SPID, p.SPID
 FROM sales s JOIN people p ON p.SPID = s.SPID;
 
-![alt text](image-14.png)
+![Alt Text](image_url_or_path)
+
 
 SELECT s.SaleDate, s.amount, pr.product
 FROM sales s
 LEFT JOIN products pr on pr.pid  = s.pid;
 
-![alt text](image-15.png)
+![Alt Text](image_url_or_path)
