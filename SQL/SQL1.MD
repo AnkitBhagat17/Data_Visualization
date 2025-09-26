@@ -77,3 +77,14 @@ SELECT SaleDate, Amount,
 FROM sales LIMIT 10;
 
 ![alt text](image-13.png)
+
+SELECT s.SaleDate, s.amount , p.Salesperson, s.SPID, p.SPID
+FROM sales s JOIN people p ON p.SPID = s.SPID;
+
+![alt text](image-14.png)
+
+SELECT s.SaleDate, s.amount, pr.product
+FROM sales s
+LEFT JOIN products pr on pr.pid  = s.pid;
+
+![alt text](image-15.png)
