@@ -88,3 +88,15 @@ FROM sales s
 LEFT JOIN products pr on pr.pid  = s.pid;
 
 ![alt text](image-15.png)
+
+SELECT 
+	s.SaleDate, 
+	s.amount, 
+    p.Salesperson, 
+    pr.product, 
+    p.team
+FROM sales s
+JOIN people p ON p.SPID = s.SPID
+JOIN products pr ON pr.pid = s.pid;
+
+![alt text](image-16.png)
