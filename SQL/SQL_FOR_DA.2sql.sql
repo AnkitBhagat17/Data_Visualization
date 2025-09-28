@@ -19,6 +19,7 @@ SELECT
     p.team
 FROM sales s
 JOIN people p ON p.SPID = s.SPID
-JOIN products pr ON pr.pid = s.pid;
+JOIN products pr ON pr.pid = s.pid
+WHERE s.amount < 500;
 
 

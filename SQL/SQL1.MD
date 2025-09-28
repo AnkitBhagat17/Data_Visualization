@@ -100,3 +100,18 @@ JOIN people p ON p.SPID = s.SPID
 JOIN products pr ON pr.pid = s.pid;
 
 ![alt text](image-16.png)
+
+
+SELECT 
+	s.SaleDate, 
+	s.amount, 
+    p.Salesperson, 
+    pr.product, 
+    p.team
+FROM sales s
+JOIN people p ON p.SPID = s.SPID
+JOIN products pr ON pr.pid = s.pid
+WHERE s.amount < 500;
+
+
+![alt text](image-17.png)
